@@ -1,4 +1,4 @@
-# Xinfernece
+# Ai-chart-build-
 
 An intelligent data visualization and analysis tool that automatically generates insightful charts and provides AI-powered data analysis.
 
