@@ -1,0 +1,60 @@
+
+Input: Create a pie chart showing distribution of Name
+Chart Type: pie
+SQL Query: SELECT Name, COUNT(*) as count FROM data_table GROUP BY Name ORDER BY count DESC
+Visualization: pie_chart
+---
+
+Input: Create a pie chart showing distribution of  "Team"
+Chart Type: pie
+SQL Query: SELECT  "Team", COUNT(*) as count FROM data_table GROUP BY  "Team" ORDER BY count DESC
+Visualization: pie_chart
+---
+
+Input: Create a pie chart showing distribution of  "Position"
+Chart Type: pie
+SQL Query: SELECT  "Position", COUNT(*) as count FROM data_table GROUP BY  "Position" ORDER BY count DESC
+Visualization: pie_chart
+---
+
+Input: Create a pie chart showing distribution of  "Weight(lbs)"
+Chart Type: pie
+SQL Query: SELECT  "Weight(lbs)", COUNT(*) as count FROM data_table GROUP BY  "Weight(lbs)" ORDER BY count DESC
+Visualization: pie_chart
+---
+
+Input: Show bar chart of Name counts
+Chart Type: bar
+SQL Query: SELECT Name, COUNT(*) as count FROM data_table GROUP BY Name ORDER BY count DESC
+Visualization: bar_chart
+---
+
+Input: Show bar chart of  "Team" counts
+Chart Type: bar
+SQL Query: SELECT  "Team", COUNT(*) as count FROM data_table GROUP BY  "Team" ORDER BY count DESC
+Visualization: bar_chart
+---
+
+Input: Show bar chart of  "Position" counts
+Chart Type: bar
+SQL Query: SELECT  "Position", COUNT(*) as count FROM data_table GROUP BY  "Position" ORDER BY count DESC
+Visualization: bar_chart
+---
+
+Input: Show bar chart of  "Weight(lbs)" counts
+Chart Type: bar
+SQL Query: SELECT  "Weight(lbs)", COUNT(*) as count FROM data_table GROUP BY  "Weight(lbs)" ORDER BY count DESC
+Visualization: bar_chart
+---
+
+Input: Display line chart of  "Height(inches)" trend
+Chart Type: line
+SQL Query: SELECT  "Height(inches)", COUNT(*) as count FROM data_table GROUP BY  "Height(inches)" ORDER BY  "Height(inches)"
+Visualization: line_chart
+---
+
+Input: Display line chart of  "Age" trend
+Chart Type: line
+SQL Query: SELECT  "Age", COUNT(*) as count FROM data_table GROUP BY  "Age" ORDER BY  "Age"
+Visualization: line_chart
+---
